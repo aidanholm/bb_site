@@ -376,7 +376,6 @@ ul.pent .cwrap {
 #hamlet {
 	background: url(img/bgimg2.png) no-repeat center center;
 	background-size: cover;
-	height: 350px;
 }
 
 #hamlet span {
@@ -384,8 +383,10 @@ ul.pent .cwrap {
 	font-size: 32pt;
 	font-style: italic;
 	font-weight: bold;
-	line-height: 350px;
 	margin-left: 7%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	display: block;
 }
 
 /********** Schedule section **********/
