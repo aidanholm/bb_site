@@ -433,13 +433,16 @@ ul.pent .cwrap {
 #organized span {
 	color: white;
 	font-size: 32pt;
-	font-style: italic;
+	font-family: Century Schoolbook;
+	opacity: 0.5;
+	font-size: 50pt;
 	font-weight: bold;
-	text-align: center;
 	width: 100%;
 	display: block;
-	margin-top: 100px;
-	margin-bottom: 100px;
+}
+
+#organized > .container > div {
+	margin: 100px;
 }
 
 /********** Map section **********/
