@@ -276,6 +276,99 @@ ul.pent .cwrap {
 
 /********** Judges and Speakers **********/
 
+#judges li, #speakers li {
+	width: 33%;
+	float: left;
+}
+
+#judges ul, #speakers ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#judges img, #speakers img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background: red;
+	display: block;
+}
+
+#judges {
+	margin: 50px 0 -50px;
+}
+
+#speakers {
+	margin: 0 0 50px 0;
+}
+
+#judges h2, #speakers h2 {
+	height: 50px;
+	line-height: 50px;
+	margin: 0;
+}
+
+#judges h2 {
+	position: relative;
+	width: 250px;
+	margin-right: -250px;
+	margin-top: 283px;
+	float: left;
+	text-align: right;
+}
+
+#speakers h2 {
+	width: 250px;
+	margin-right: -250px;
+	margin-left: 550px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+#judges h2::after {
+	display: block;
+	content: '';
+	width: 2000px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -1750px;
+	border-bottom: 1px solid lightblue;
+}
+
+#speakers h2::after {
+	display: block;
+	content: '';
+	width: 2000px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	border-top: 1px solid lightblue;
+}
+
+#judges, #speakers {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+#judges h3, #speakers h3 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 12pt;
+}
+
+#judges h4, #speakers h4 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 10pt;
+}
+
+#sec_panel {
+	background: url("img/judge-bg.svg") no-repeat center center;
+	background-size: 200px;
+}
+
 /********** 2B, or not to be? **********/
 
 #hamlet {
