@@ -72,7 +72,7 @@ section.white {
 	padding: 50px;
 }
 
-section.white > h2 {
+section.white h2 {
 	background: url(img/whiteh2_back.png);
 	background-size: 100%;
 	float: left;
@@ -83,7 +83,7 @@ section.white > h2 {
 	width:  300px;
 }
 
-section.white > div {
+section.white div {
 	text-align: justify;
 }
 
@@ -284,13 +284,13 @@ ul.pent .cwrap {
 	height: 350px;
 }
 
-#hamlet > span {
+#hamlet span {
 	color: white;
 	font-size: 32pt;
 	font-style: italic;
 	font-weight: bold;
 	line-height: 350px;
-	margin-left: 15%;
+	margin-left: 7%;
 }
 
 /********** Schedule section **********/
@@ -391,4 +391,11 @@ ul.pent .cwrap {
 
 #contact li:nth-child(2) {
 	background: url(img/mail-icon.svg) no-repeat 0 0px;
+}
+
+/* Container */
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
 }
