@@ -389,7 +389,8 @@ ul.pent .cwrap {
 /********** Schedule section **********/
 
 #schedule {
-	margin-left: 350px;
+	float: right;
+	width: 300px;
 }
 
 #schedule span {
