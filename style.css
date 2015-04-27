@@ -200,8 +200,8 @@ li:nth-child(2n) .face:last-child {
 	transform: rotateY(180deg) !important;
 }
 
-li:nth-child(2n-1) .cinner { margin-top: 8px; }
-li:nth-child(2n)   .cinner { margin-top: -10px; }
+.pent > li:nth-child(2n-1) .cinner { margin-top: 8px; }
+.pent > li:nth-child(2n)   .cinner { margin-top: -10px; }
 
 /***/
 
