@@ -92,9 +92,9 @@ section.white div {
 }
 
 .cinner {
-    top: 50%;
-    position: absolute;
-    transform: translateY(-50%);
+	top: 50%;
+	position: absolute;
+	transform: translateY(-50%);
 }
 
 /********** About section **********/
@@ -165,16 +165,16 @@ span.smaller {
 /********** Shape sections > pent **********/
 
 div.face {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
 	background-size: 100% !important;
 }
 
 .face, .face * {
-    backface-visibility: hidden;
+	backface-visibility: hidden;
 	transform-style: preserve-3d;
 }
 
@@ -487,7 +487,7 @@ ul.pent .cwrap {
 	background: url(img/mail-icon.svg) no-repeat 0 0px;
 }
 
-/* Container */
+/********** Container **********/
 
 .container {
 	max-width: 800px;
