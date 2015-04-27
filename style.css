@@ -1,0 +1,394 @@
+section, header {
+	width: 100%;
+	overflow: hidden;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+/********** Header **********/
+
+header {
+	background: url(img/header.png) no-repeat center center;
+	background-size: cover;
+	color: white;
+}
+
+header > a {
+	border: 1px solid white;
+	border-radius: 3px;
+	color: white;
+	display: block;
+	margin: 50px auto;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+}
+
+header > h2 {
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	margin: 10px auto;
+	width: 230px;
+}
+
+header > div {
+	text-align: center;
+}
+
+header > h1 {
+	margin: 10px 0;
+	padding-top: 100px;
+}
+
+/* Blah */
+header > ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+header li {
+	display: inline-block;
+	margin: 10px 10px 0;
+}
+
+header li > a {
+	color: white;
+	text-decoration: none;
+}
+
+/********** White sections **********/
+
+section.white {
+	background: white;
+	box-sizing: border-box;
+	padding: 50px;
+}
+
+section.white > h2 {
+	background: url(img/whiteh2_back.png);
+	background-size: 100%;
+	float: left;
+	height: 300px;
+	line-height: 300px;
+	margin: 0;
+	margin-right: 50px;
+	width:  300px;
+}
+
+section.white > div {
+	text-align: justify;
+}
+
+.cwrap {
+	position: relative;
+}
+
+.cinner {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+/********** About section **********/
+
+#sec_about .cwrap {
+	height: 300px;
+}
+
+#sec_about .cinner {
+	margin-left: 350px;
+}
+
+/********** Shape sections **********/
+
+section.shape {
+	padding: 50px 0; 
+}
+
+ul.hex, ul.pent {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul.hex > li, ul.pent > li {
+	float: left;
+}
+
+/********** Shape sections > hex **********/
+
+ul.hex > li {
+	width: 33.3334%;
+	display: table;
+}
+
+ul.hex > li > div {
+	width: 200px;
+	height: 231px;
+	margin: 0 auto;
+	background: url(img/hex.png) no-repeat;
+	background-size: 100%;
+	box-sizing: border-box;
+	color: white;
+	font-size: 2em;
+}
+
+ul.hex .cinner, ul.pent .cinner  {
+	width: 100%;
+	text-align: center;
+}
+
+#sec_numbers {
+	background: url(img/bgimg1.png) no-repeat center center;
+	background-size: cover;
+}
+
+span.small {
+	font-size: 0.7em;
+}
+
+span.smaller {
+	font-size: 0.5em;
+}
+
+.large {
+	font-size: 1.5em;
+}
+
+/********** Shape sections > pent **********/
+
+div.face {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+	background-size: 100% !important;
+}
+
+.face, .face * {
+    backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+
+li:nth-child(2n-1) .face:first-child {
+	background: url(img/pent.png) no-repeat;
+}
+
+li:nth-child(2n-1) .face:last-child {
+	background: url(img/pent_back.png) no-repeat;
+	transform: rotateY(180deg);
+}
+
+li:nth-child(2n) .face:first-child {
+	background: url(img/pent_flip.png) no-repeat;
+}
+
+li:nth-child(2n) .face:last-child {
+	background: url(img/pent_flip_back.png) no-repeat;
+	transform: rotateY(180deg);
+}
+
+.pent > li:hover > div {
+	transform: rotateY(180deg) !important;
+}
+
+li:nth-child(2n-1) .cinner { margin-top: 8px; }
+li:nth-child(2n)   .cinner { margin-top: -10px; }
+
+/***/
+
+ul.pent {
+	margin: 0px auto;
+	width: 680px;
+	height: 281px;
+}
+
+ul.pent > li {
+	width: 200px;
+	height: 192px;
+	position: relative;
+	transform-style: preserve-3d;
+	margin-left: -30px;
+}
+
+ul.pent > li:nth-child(2n) {
+	margin-top: 75px;
+}
+
+ul.pent > li > div {
+	transition: transform 0.4s;
+	transform-style: preserve-3d;
+}
+
+ul.pent div.face {
+	width: 200px;
+	height: 192px;
+	margin: 0 auto;
+	background-size: 100%;
+	box-sizing: border-box;
+	color: white;
+	font-size: 2em;
+}
+
+#sec_faq {
+	background: url(img/bgimg3.png) no-repeat center center;
+	background-size: cover;
+}
+
+ul.pent .cwrap {
+	height: 100%;
+}
+
+#icon_student {
+	background: url(img/icon_student.svg) no-repeat;
+	background-size: 100%;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-top: -28px;
+}
+
+#icon_award {
+	background: url(img/icon_award.svg) no-repeat;
+	background-size: 100%;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-top: -10px;
+}
+
+#icon_people {
+	background: url(img/icon_people.svg) no-repeat;
+	background-size: 100%;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-top: -28px;
+}
+
+/********** Judges and Speakers **********/
+
+/********** 2B, or not to be? **********/
+
+#hamlet {
+	background: url(img/bgimg2.png) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+
+#hamlet > span {
+	color: white;
+	font-size: 32pt;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 350px;
+	margin-left: 15%;
+}
+
+/********** Schedule section **********/
+
+#schedule {
+	margin-left: 350px;
+}
+
+#schedule span {
+	transform: translateX(-72px);
+	position: absolute;
+}
+
+#schedule li {
+	border: 2px solid #407dac;
+	color: #407dac;
+	padding: 0.3em;
+	max-width: 200px;
+	margin-bottom: 0.5em;
+}
+
+/********** Sponsors section **********/
+
+#sponsors {
+	margin-left: 350px;
+}
+
+#sponsors > li {
+	width: 350px;
+	height: 90px;
+	display: block;
+	margin-bottom: 10px;
+	background: #ddd;
+}
+
+/********** Organized by HackNTU **********/
+
+#organized {
+	background: url(img/bgimg3.png) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+
+#organized > span {
+	color: white;
+	font-size: 32pt;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 350px;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+/********** Map section **********/
+
+/********** Contact section **********/
+
+#contact {
+	background: url(img/bgimg5.png) no-repeat center center;
+	background-size: cover;
+	height: 350px;
+}
+
+#contact > h2 {
+	text-align: center;
+	color: white;
+	width: 350px;
+	margin: 1em auto 2em;
+	padding-bottom: 10px;
+	border-bottom: 1px solid white;
+}
+
+#contact > ul {
+	width: 290px;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+#contact li {
+	width: 300px;
+	padding-left: 50px;
+	display: block;
+	margin-bottom: 50px;
+	background-size: 40px;
+}
+
+#contact h3, #contact a{
+	margin: 0;
+	color: white;
+	font-size: 10pt;
+}
+
+#contact li:nth-child(1) {
+	background: url(img/fb-icon.svg) no-repeat 0 0px;
+}
+
+#contact li:nth-child(2) {
+	background: url(img/mail-icon.svg) no-repeat 0 0px;
+}
