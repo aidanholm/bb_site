@@ -44,7 +44,8 @@ header > div {
 
 header > h1 {
 	margin: 10px 0;
-	padding-top: 100px;
+	padding-top: 150px;
+	background: url("img/logo.png") no-repeat scroll center 30px / 100px auto transparent;
 }
 
 /* Blah */
