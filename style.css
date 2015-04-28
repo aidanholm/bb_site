@@ -439,17 +439,24 @@ ul.pent .cwrap {
 
 #organized span {
 	color: white;
-	font-size: 32pt;
 	font-family: Century Schoolbook;
 	opacity: 0.5;
-	font-size: 50pt;
 	font-weight: bold;
 	width: 100%;
 	display: block;
 }
 
+#organized span:first-child {
+	font-size: 2em;
+}
+
+#organized span:last-child {
+	transform: scaleY(1.5);
+	font-size: 4em;
+}
+
 #organized > .container > div {
-	margin: 100px;
+	margin: 100px 200px;
 }
 
 /********** Map section **********/
