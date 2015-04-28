@@ -417,11 +417,17 @@ ul.pent .cwrap {
 }
 
 #sponsors > li {
-	width: 350px;
-	height: 90px;
 	display: block;
-	margin-bottom: 10px;
-	background: #ddd;
+	float: left;
+	margin-top: 33px;
+}
+#sponsors > li:nth-child(2n-1) {
+	margin-right: 10px;
+}
+
+#sponsors img {
+	width: 200px;
+	height: 100px;
 }
 
 /********** Organized by HackNTU **********/
