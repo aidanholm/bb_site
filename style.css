@@ -399,6 +399,11 @@ ul.pent .cwrap {
 	color: #407dac;
 }
 
+#sec_schedule h2 {
+	filter: hue-rotate(90deg);
+	-webkit-filter: hue-rotate(90deg);
+}
+
 #schedule span {
 	margin-left: -72px;
 	position: absolute;
