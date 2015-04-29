@@ -202,7 +202,7 @@ li:nth-child(2n-1) .face:first-child {
 }
 
 li:nth-child(2n-1) .face:last-child {
-	background: url(img/pent_back.png) no-repeat;
+	background: url(img/pent.png) no-repeat;
 	transform: rotateY(180deg);
 }
 
@@ -211,7 +211,7 @@ li:nth-child(2n) .face:first-child {
 }
 
 li:nth-child(2n) .face:last-child {
-	background: url(img/pent_flip_back.png) no-repeat;
+	background: url(img/pent_flip.png) no-repeat;
 	transform: rotateY(180deg);
 }
 
@@ -219,8 +219,14 @@ li:nth-child(2n) .face:last-child {
 	transform: rotateY(180deg) !important;
 }
 
-.pent > li:nth-child(2n-1) .cinner { margin-top: 8px; }
+.pent > li:nth-child(2n-1) .face:first-child > .cinner { margin-top: 8px; }
+.pent > li:nth-child(2n-1) .face:last-child > .cinner { margin-top: 17px; }
 .pent > li:nth-child(2n)   .cinner { margin-top: -10px; }
+
+.face:last-child > .cinner {
+	font-size: 0.5em;
+	padding: 0px 30px;
+}
 
 /***/
 
