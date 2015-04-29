@@ -31,15 +31,24 @@ header > a {
 	width: 200px;
 }
 
+header > h1 {
+	font-size: 2.5em;
+}
+
 header > h2 {
 	border-bottom: 1px solid white;
 	border-top: 1px solid white;
 	margin: 10px auto;
-	width: 230px;
+	width: 10em;
+	padding: 6px;
+	font-weight: normal;
+	font-family: Century Gothic, sans-serif;
 }
 
 header > div {
 	text-align: center;
+	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-size: 12pt;
 }
 
 header > h1 {
