@@ -495,11 +495,11 @@ ul.pent .cwrap {
 
 #organized span {
 	color: white;
-	font-family: Century Schoolbook;
 	opacity: 0.5;
 	font-weight: bold;
 	width: 100%;
 	display: block;
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 #organized span:first-child {
