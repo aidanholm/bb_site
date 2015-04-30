@@ -516,17 +516,6 @@ ul.pent .cwrap {
 
 /********** Map section **********/
 
-#sec_location span {
-	font-size: 32pt;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	display: block;
-	text-align: center;
-    line-height: 50px;
-    float: right;
-    height: 100px;
-}
-
 #sec_map > iframe {
 	border: 0;
 }
