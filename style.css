@@ -579,10 +579,6 @@ ul.pent .cwrap {
 	background: url(img/fb-icon.svg) no-repeat 0 0px;
 }
 
-#contact li:nth-child(2) {
-	background: url(img/mail-icon.svg) no-repeat 0 0px;
-}
-
 /********** Container **********/
 
 .container {
