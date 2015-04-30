@@ -63,10 +63,6 @@ header > a {
 	font-size: 2em;
 }
 
-header > h1 {
-	font-size: 2.5em;
-}
-
 header > h2 {
 	border-bottom: 1px solid white;
 	border-top: 1px solid white;
@@ -87,6 +83,7 @@ header > h1 {
 	margin: 10px 0;
 	padding-top: 200px;
 	background: url("img/logo.png") no-repeat scroll center 70px / 100px auto transparent;
+	font-size: 2.5em;
 }
 
 /* Blah */
