@@ -383,24 +383,21 @@ ul.pent .cwrap {
 	text-align: left;
 }
 
-#judges h2::after {
+#judges h2::after, #speakers h2::after {
 	display: block;
 	content: '';
 	width: 2000px;
 	height: 100%;
 	position: absolute;
 	top: 0;
+}
+
+#judges h2::after {
 	left: -1750px;
 	border-bottom: 1px solid lightblue;
 }
 
 #speakers h2::after {
-	display: block;
-	content: '';
-	width: 2000px;
-	height: 100%;
-	position: absolute;
-	top: 0;
 	border-top: 1px solid lightblue;
 }
 
