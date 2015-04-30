@@ -1,3 +1,5 @@
+/********** Main styles **********/
+
 section, header {
 	width: 100%;
 	overflow: hidden;
@@ -569,7 +571,7 @@ ul.pent .cwrap {
 	background-size: 40px;
 }
 
-#contact h3, #contact a{
+#contact h3, #contact a {
 	margin: 0;
 	color: white;
 	font-size: 10pt;
