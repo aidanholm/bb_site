@@ -307,30 +307,24 @@ ul.pent .cwrap {
 	height: 100%;
 }
 
-#icon_student {
-	background: url(img/icon_student.svg) no-repeat;
-	background-size: 100%;
+#icon_student, #icon_award, #icon_people {
 	width: 80px;
 	height: 80px;
 	display: inline-block;
+}
+
+#icon_student {
+	background: url(img/icon_student.svg) no-repeat 100%;
 	margin-top: -28px;
 }
 
 #icon_award {
-	background: url(img/icon_award.svg) no-repeat;
-	background-size: 100%;
-	width: 80px;
-	height: 80px;
-	display: inline-block;
+	background: url(img/icon_award.svg) no-repeat 100%;
 	margin-top: -10px;
 }
 
 #icon_people {
-	background: url(img/icon_people.svg) no-repeat;
-	background-size: 100%;
-	width: 80px;
-	height: 80px;
-	display: inline-block;
+	background: url(img/icon_people.svg) no-repeat 100%;
 	margin-top: -28px;
 }
 
