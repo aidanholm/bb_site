@@ -215,7 +215,7 @@ li:nth-child(2n) .face:last-child {
 	transform: rotateY(180deg);
 }
 
-.pent > li:hover > div {
+.pent > li:not(:first-child):hover > div {
 	transform: rotateY(180deg) !important;
 }
 
