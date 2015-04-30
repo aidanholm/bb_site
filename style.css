@@ -56,10 +56,11 @@ header > a {
 	color: white;
 	display: block;
 	margin: 50px auto;
-	padding: 10px 0;
+	padding: 5px 0;
 	text-align: center;
 	text-decoration: none;
 	width: 200px;
+	font-size: 2em;
 }
 
 header > h1 {
