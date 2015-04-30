@@ -42,7 +42,7 @@ body {
 /********** Header **********/
 
 header {
-	background: url(img/header.png) no-repeat center center;
+	background: url(img/header.jpg) no-repeat center center;
 	background-size: cover;
 	color: white;
 	font-family: 'droid_sansbold';
@@ -197,7 +197,7 @@ ul.hex .cinner, ul.pent .cinner  {
 }
 
 #sec_numbers {
-	background: url(img/bgimg1.png) no-repeat center center;
+	background: url(img/bgimg1.jpg) no-repeat center center;
 	background-size: cover;
 	font-size: 1.5em;
 }
@@ -297,7 +297,7 @@ ul.pent div.face {
 }
 
 #sec_faq {
-	background: url(img/bgimg3.png) no-repeat center center;
+	background: url(img/bgimg3.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -430,7 +430,7 @@ ul.pent .cwrap {
 /********** 2B, or not to be? **********/
 
 #hamlet {
-	background: url(img/bgimg2.png) no-repeat center center;
+	background: url(img/bgimg2.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -494,7 +494,7 @@ ul.pent .cwrap {
 /********** Organized by HackNTU **********/
 
 #organized {
-	background: url(img/bgimg3.png) no-repeat center center;
+	background: url(img/bgimg3.jpg) no-repeat center center;
 	background-size: cover;
 }
 
@@ -540,7 +540,7 @@ ul.pent .cwrap {
 /********** Contact section **********/
 
 #contact {
-	background: url(img/bgimg5.png) no-repeat center center;
+	background: url(img/bgimg5.jpg) no-repeat center center;
 	background-size: cover;
 	height: 350px;
 }
