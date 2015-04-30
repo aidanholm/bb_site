@@ -486,6 +486,11 @@ ul.pent .cwrap {
 	height: 100px;
 }
 
+/* An ugly hack... but it's the eleventh hour */
+#sec_sponsors h2 {
+	margin-top: 50px;
+}
+
 /********** Organized by HackNTU **********/
 
 #organized {
