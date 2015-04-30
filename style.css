@@ -332,6 +332,9 @@ ul.pent .cwrap {
 
 #judges, #speakers {
 	color: #407cac;
+	position: relative;
+	float: left;
+	width: 100%;
 }
 
 #judges li, #speakers li {
@@ -360,13 +363,13 @@ ul.pent .cwrap {
 	margin: 0 0 50px 0;
 }
 
-#judges h2, #speakers h2 {
+#judges > h2, #speakers > h2 {
 	height: 50px;
 	line-height: 50px;
 	margin: 0;
 }
 
-#judges h2 {
+#judges > h2 {
 	position: relative;
 	width: 250px;
 	margin-right: -250px;
@@ -375,7 +378,7 @@ ul.pent .cwrap {
 	text-align: right;
 }
 
-#speakers h2 {
+#speakers > h2 {
 	width: 250px;
 	margin-right: -250px;
 	margin-left: 550px;
@@ -383,7 +386,7 @@ ul.pent .cwrap {
 	text-align: left;
 }
 
-#judges h2::after, #speakers h2::after {
+#judges > h2::after, #speakers > h2::after {
 	display: block;
 	content: '';
 	width: 2000px;
@@ -392,19 +395,13 @@ ul.pent .cwrap {
 	top: 0;
 }
 
-#judges h2::after {
+#judges > h2::after {
 	left: -1750px;
 	border-bottom: 1px solid lightblue;
 }
 
-#speakers h2::after {
+#speakers > h2::after {
 	border-top: 1px solid lightblue;
-}
-
-#judges, #speakers {
-	position: relative;
-	float: left;
-	width: 100%;
 }
 
 #judges h3, #speakers h3 {
