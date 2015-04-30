@@ -443,11 +443,13 @@ ul.pent .cwrap {
 	float: right;
 	width: 300px;
 	color: #407dac;
+	margin: 0;
 }
 
 #sec_schedule h2 {
 	filter: hue-rotate(90deg);
 	-webkit-filter: hue-rotate(90deg);
+	margin-top: 40px; /* Another ghastly hack, but I just want to go home now */
 }
 
 #schedule span {
