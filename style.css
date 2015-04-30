@@ -336,6 +336,10 @@ ul.pent .cwrap {
 
 /********** Judges and Speakers **********/
 
+#judges, #speakers {
+	color: #407cac;
+}
+
 #judges li, #speakers li {
 	width: 33%;
 	float: left;
@@ -415,13 +419,13 @@ ul.pent .cwrap {
 #judges h3, #speakers h3 {
 	font-weight: normal;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 17pt;
 }
 
 #judges h4, #speakers h4 {
 	font-weight: normal;
 	text-align: center;
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
 #sec_panel {
