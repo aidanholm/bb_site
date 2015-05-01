@@ -64,10 +64,15 @@ $(IMG_TARGETS): $(BUILD_STATIC_DIR)/img/%: img/%
 	@if [[ "$(MINIFY)" == "yes" ]] && [[ $< == *.png ]]; then \
 		echo -e "$(TXT_COMPRESSING) $< $(COL_GREY)=>$(COL_RST) $@"; \
 		optipng -clobber --out=$@ $<; \
+	elif [[ "$(MINIFY)" == "yes" ]] && [[ $< == *.jpg ]]; then \
+		echo -e "$(TXT_COMPRESSING) $< $(COL_GREY)=>$(COL_RST) $@"; \
+		cp $< $@; \
+		jpegoptim --strip-all $@; \
 	else \
 		echo -e "$(TXT_COPYING) $< $(COL_GREY)=>$(COL_RST) $@"; \
 		cp $< $@; \
 	fi
+	@mv build/img/favicon.ico build/
 
 $(FONT_TARGETS): $(BUILD_STATIC_DIR)/%: %
 	@mkdir -p build/fonts
