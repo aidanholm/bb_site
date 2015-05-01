@@ -143,6 +143,10 @@ section.white div {
 .cinner {
 	top: 50%;
 	position: absolute;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
 
@@ -226,7 +230,15 @@ div.face {
 }
 
 .face, .face * {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
 	backface-visibility: hidden;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
@@ -236,6 +248,10 @@ li:nth-child(2n-1) .face:first-child {
 
 li:nth-child(2n-1) .face:last-child {
 	background: url(img/pent.png) no-repeat;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
@@ -245,10 +261,18 @@ li:nth-child(2n) .face:first-child {
 
 li:nth-child(2n) .face:last-child {
 	background: url(img/pent_flip.png) no-repeat;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
 }
 
 .pent > li:not(:first-child):hover > div {
+	-webkit-transform: rotateY(180deg) !important;
+	-moz-transform: rotateY(180deg) !important;
+	-ms-transform: rotateY(180deg) !important;
+	-o-transform: rotateY(180deg) !important;
 	transform: rotateY(180deg) !important;
 }
 
@@ -273,6 +297,10 @@ ul.pent > li {
 	width: 200px;
 	height: 192px;
 	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	margin-left: -30px;
 }
@@ -282,7 +310,15 @@ ul.pent > li:nth-child(2n) {
 }
 
 ul.pent > li > div {
+	-webkit-transition: transform 0.4s;
+	-moz-transition: transform 0.4s;
+	-ms-transition: transform 0.4s;
+	-o-transition: transform 0.4s;
 	transition: transform 0.4s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
@@ -512,6 +548,10 @@ ul.pent .cwrap {
 }
 
 #organized span:last-child {
+	-webkit-transform: scaleY(1.5);
+	-moz-transform: scaleY(1.5);
+	-ms-transform: scaleY(1.5);
+	-o-transform: scaleY(1.5);
 	transform: scaleY(1.5);
 	font-size: 4em;
 }
