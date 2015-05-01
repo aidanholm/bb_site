@@ -111,7 +111,7 @@ header ul {
 section.white {
 	background: white;
 	box-sizing: border-box;
-	padding: 3.125em;
+	padding: 3.125em 0;
 }
 
 section.white h2 {
