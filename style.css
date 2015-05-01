@@ -336,17 +336,18 @@ ul.pent .cwrap {
 	width: 100%;
 }
 
-#judges li, #speakers li {
+#judges > ul > li {
 	width: 33%;
 	float: left;
 }
 
-#judges ul, #speakers ul {
+#judges > ul {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 
-#judges img, #speakers img {
+#judges img {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
@@ -354,70 +355,69 @@ ul.pent .cwrap {
 	display: block;
 }
 
-#judges {
-	margin: 50px 0 -50px;
-}
-
-#speakers {
-	margin: 0 0 50px 0;
-}
-
-#judges > h2, #speakers > h2 {
-	height: 50px;
-	line-height: 50px;
-	margin: 0;
-}
-
 #judges > h2 {
+	height: 160px;
+	margin: 0;
 	position: relative;
-	width: 250px;
-	margin-right: -250px;
-	margin-top: 303px;
+	width: 100%;
+	margin-right: -100%;
+	margin-top: 243px;
+	float: left;
+	background: url("img/judge-bg.svg") no-repeat center center;
+	background-size: 160px;
+}
+
+#judges > h2 > span {
+	line-height: 50px;
+	margin-top: 55px;
+	width: 270px;
+}
+
+#judges > h2 > span:first-child {
 	float: left;
 	text-align: right;
 }
 
-#speakers > h2 {
-	width: 250px;
-	margin-right: -250px;
-	margin-left: 550px;
-	margin-bottom: 100px;
+#judges > h2 > span:last-child {
+	float: right;
 	text-align: left;
 }
 
-#judges > h2::after, #speakers > h2::after {
+#judges > h2 > span::after {
+	margin-top: 55px;
 	display: block;
 	content: '';
 	width: 2000px;
-	height: 100%;
+	height: 50px;
 	position: absolute;
 	top: 0;
 }
 
-#judges > h2::after {
-	left: -1750px;
+#judges > h2 > span:first-child::after {
+	left: -1730px;
 	border-bottom: 1px solid lightblue;
 }
 
-#speakers > h2::after {
-	border-top: 1px solid lightblue;
+#judges > h2 > span:last-child::after {
+	border-bottom: 1px solid lightblue;
 }
 
-#judges h3, #speakers h3 {
+#judges h3 {
 	font-weight: normal;
 	text-align: center;
 	font-size: 17pt;
 }
 
-#judges h4, #speakers h4 {
+#judges h4 {
 	font-weight: normal;
 	text-align: center;
 	font-size: 12pt;
+	margin-bottom: 0;
 }
 
 #sec_panel {
-	background: url("img/judge-bg.svg") no-repeat center center;
 	background-size: 200px;
+	margin: 50px 0;
 }
 
 /********** 2B, or not to be? **********/
