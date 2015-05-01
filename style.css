@@ -51,24 +51,24 @@ header {
 }
 
 header > a {
-	border: 1px solid white;
-	border-radius: 3px;
+	border: 0.03125em solid white;
+	border-radius: 0.1em;
 	color: white;
 	display: block;
-	margin: 50px auto;
-	padding: 5px 0;
+	margin: 1.5em auto;
+	padding: 0.15625 0;
 	text-align: center;
 	text-decoration: none;
-	width: 200px;
+	width: 6em;
 	font-size: 2em;
 }
 
 header > h2 {
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
-	margin: 10px auto;
+	border-bottom: 0.03125em solid white;
+	border-top: 0.03125em solid white;
+	margin: 0.8em auto;
 	width: 10em;
-	padding: 6px;
+	padding: 0.275em;
 	font-weight: normal;
 	font-family: Century Gothic, sans-serif;
 }
@@ -76,13 +76,12 @@ header > h2 {
 header > div {
 	text-align: center;
 	font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
-	font-size: 12pt;
 }
 
 header > h1 {
-	margin: 10px 0;
-	padding-top: 200px;
-	background: url("img/logo.png") no-repeat scroll center 70px / 100px auto transparent;
+	margin: .25em 0;
+	padding-top: 5em;
+	background: url("img/logo.png") no-repeat scroll center 1.75em / 2.5em auto transparent;
 	font-size: 2.5em;
 }
 
@@ -95,7 +94,7 @@ header > ul {
 
 header li {
 	display: inline-block;
-	margin: 10px 10px 0;
+	margin: 0.625em 0.625em 0;
 }
 
 header li > a {
@@ -112,7 +111,7 @@ header ul {
 section.white {
 	background: white;
 	box-sizing: border-box;
-	padding: 50px;
+	padding: 3.125em;
 }
 
 section.white h2 {
@@ -121,11 +120,11 @@ section.white h2 {
 	float: left;
 	height: 0;
 	line-height: 0;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 5.86em;
+	padding-bottom: 5.86em;
 	margin: 0;
-	margin-right: 50px;
-	width:  300px;
+	margin-right: 1.95em;
+	width:  11.72em;
 	font-family: Century Gothic, sans-serif;
 	font-weight: normal;
 	font-size: 1.6em;
@@ -133,7 +132,7 @@ section.white h2 {
 }
 
 section.white div {
-	text-align: justify;
+	text-align: left;
 }
 
 .cwrap {
@@ -153,18 +152,18 @@ section.white div {
 /********** About section **********/
 
 #sec_about .cwrap {
-	height: 300px;
+	height: 18.75em;
 }
 
 #sec_about .cinner {
-	margin-left: 350px;
+	margin-left: 21.875em;
 	color: #417bac;
 }
 
 /********** Shape sections **********/
 
 section.shape {
-	padding: 50px 0; 
+	padding: 3.125em 0;
 }
 
 ul.hex, ul.pent {
@@ -180,13 +179,14 @@ ul.hex > li, ul.pent > li {
 /********** Shape sections > hex **********/
 
 ul.hex > li {
-	width: 33.3334%;
+	width: 33.3333%;
 	display: table;
+	font-size: 1.5em;
 }
 
 ul.hex > li > div {
-	width: 200px;
-	height: 231px;
+	width: 4.166667em;
+	height: 4.8125em;
 	margin: 0 auto;
 	background: url(img/hex.png) no-repeat;
 	background-size: 100%;
@@ -203,7 +203,6 @@ ul.hex .cinner, ul.pent .cinner  {
 #sec_numbers {
 	background: url(img/bgimg1.jpg) no-repeat center center;
 	background-size: cover;
-	font-size: 1.5em;
 }
 
 span.small {
@@ -222,8 +221,8 @@ span.smaller {
 
 div.face {
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	background-size: 100% !important;
@@ -276,37 +275,37 @@ li:nth-child(2n) .face:last-child {
 	transform: rotateY(180deg) !important;
 }
 
-.pent > li:nth-child(2n-1) .face:first-child > .cinner { margin-top: 8px; }
-.pent > li:nth-child(2n-1) .face:last-child > .cinner { margin-top: 17px; }
-.pent > li:nth-child(2n)   .cinner { margin-top: -10px; }
+.pent > li:nth-child(2n-1) .face:first-child > .cinner { margin-top: 0.2em; }
+.pent > li:nth-child(2n-1) .face:last-child > .cinner { margin-top: 0.8em; }
+.pent > li:nth-child(2n)   .cinner { margin-top: -0.5em; }
 
 .face:last-child > .cinner {
 	font-size: 0.5em;
-	padding: 0px 30px;
+	padding: 0 1.875em;
 }
 
 /***/
 
 ul.pent {
-	margin: 0px auto;
-	width: 680px;
-	height: 281px;
+	margin: 0 auto;
+	width: 42.5em;
+	height: 17.5625em;
 }
 
 ul.pent > li {
-	width: 200px;
-	height: 192px;
+	width: 12.5em;
+	height: 12em;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	margin-left: -30px;
+	margin-left: -1.875em;
 }
 
 ul.pent > li:nth-child(2n) {
-	margin-top: 75px;
+	margin-top: 4.6875em;
 }
 
 ul.pent > li > div {
@@ -323,8 +322,8 @@ ul.pent > li > div {
 }
 
 ul.pent div.face {
-	width: 200px;
-	height: 192px;
+	width: 6.25em;
+	height: 6em;
 	margin: 0 auto;
 	background-size: 100%;
 	box-sizing: border-box;
@@ -342,25 +341,25 @@ ul.pent .cwrap {
 }
 
 #icon_student, #icon_award, #icon_people {
-	width: 80px;
-	height: 80px;
+	width: 2.5em;
+	height: 2.5em;
 	display: inline-block;
-	margin-bottom: -20px;
+	margin-bottom: -0.625em;
 }
 
 #icon_student {
 	background: url(img/icon_student.svg) no-repeat 100%;
-	margin-top: -28px;
+	margin-top: -0.875em;
 }
 
 #icon_award {
 	background: url(img/icon_award.svg) no-repeat 100%;
-	margin-top: -10px;
+	margin-top: -0.3125em;
 }
 
 #icon_people {
 	background: url(img/icon_people.svg) no-repeat 100%;
-	margin-top: -28px;
+	margin-top: -0.875em;
 }
 
 /********** Judges and Speakers **********/
@@ -384,29 +383,29 @@ ul.pent .cwrap {
 }
 
 #judges img {
-	width: 100px;
-	height: 100px;
+	width: 6.25em;
+	height: 6.25em;
 	margin: 0 auto;
 	background: red;
 	display: block;
 }
 
 #judges > h2 {
-	height: 160px;
+	height: 6.66666em;
 	margin: 0;
 	position: relative;
 	width: 100%;
 	margin-right: -100%;
-	margin-top: 243px;
+	margin-top: 10.125em;
 	float: left;
 	background: url("img/judge-bg.svg") no-repeat center center;
-	background-size: 160px;
+	background-size: 6.66666em;
 }
 
 #judges > h2 > span {
-	line-height: 50px;
-	margin-top: 55px;
-	width: 270px;
+	line-height: 2.08333em;
+	margin-top: 2.29167em;
+	width: 11.25em;
 }
 
 #judges > h2 > span:first-child {
@@ -420,40 +419,35 @@ ul.pent .cwrap {
 }
 
 #judges > h2 > span::after {
-	margin-top: 55px;
+	margin-top: 2.29167em;
 	display: block;
 	content: '';
-	width: 2000px;
-	height: 50px;
+	width: 100em;
+	height: 2.08333em;
 	position: absolute;
 	top: 0;
+	border-bottom: 0.06em solid #407cac;
 }
 
 #judges > h2 > span:first-child::after {
-	left: -1730px;
-	border-bottom: 1px solid lightblue;
-}
-
-#judges > h2 > span:last-child::after {
-	border-bottom: 1px solid lightblue;
+	left: -88.75em;
 }
 
 #judges h3 {
 	font-weight: normal;
 	text-align: center;
-	font-size: 17pt;
+	font-size: 1.4em;
 }
 
 #judges h4 {
 	font-weight: normal;
 	text-align: center;
-	font-size: 12pt;
+	font-size: 1em;
 	margin-bottom: 0;
 }
 
 #sec_panel {
-	background-size: 200px;
-	margin: 50px 0;
+	margin: 3.125em 0;
 }
 
 /********** 2B, or not to be? **********/
@@ -465,12 +459,12 @@ ul.pent .cwrap {
 
 #hamlet span {
 	color: white;
-	font-size: 32pt;
+	font-size: 3em;
 	font-style: italic;
 	font-weight: bold;
 	margin-left: 7%;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin-top: 2.08em;
+	margin-bottom: 2.08em;
 	display: block;
 }
 
@@ -478,7 +472,7 @@ ul.pent .cwrap {
 
 #schedule {
 	float: right;
-	width: 300px;
+	width: 20em;
 	color: #407dac;
 	margin: 0;
 }
@@ -486,18 +480,17 @@ ul.pent .cwrap {
 #sec_schedule h2 {
 	filter: hue-rotate(90deg);
 	-webkit-filter: hue-rotate(90deg);
-	margin-top: 40px; /* Another ghastly hack, but I just want to go home now */
+	margin-top: 1.5625em; /* Another ghastly hack, but I just want to go home now */
 }
 
 #schedule span {
-	margin-left: -72px;
+	margin-left: -4em;
 	position: absolute;
 }
 
 #schedule li:nth-child(2n) {
-	border: 2px solid #407dac;
+	border: 0.13em solid #407dac;
 	padding: 0.3em;
-	max-width: 300px;
 	list-style-type: none;
 }
 
@@ -505,26 +498,26 @@ ul.pent .cwrap {
 
 #sponsors {
 	margin: 0;
-	margin-left: 350px;
+	margin-left: 21.875em;
 }
 
 #sponsors > li {
 	display: block;
 	float: left;
-	margin-top: 33px;
+	margin-top: 2em;
 }
 #sponsors > li:nth-child(2n-1) {
-	margin-right: 10px;
+	margin-right: 0.625em;
 }
 
 #sponsors img {
-	width: 200px;
-	height: 100px;
+	width: 12.5em;
+	height: 6.25em;
 }
 
 /* An ugly hack... but it's the eleventh hour */
 #sec_sponsors h2 {
-	margin-top: 50px;
+	margin-top: 1.95312em;
 }
 
 /********** Organized by HackNTU **********/
@@ -557,7 +550,7 @@ ul.pent .cwrap {
 }
 
 #organized > .container > div {
-	margin: 100px 200px;
+	margin: 6.25em 12.5em;
 }
 
 /********** Map section **********/
@@ -576,40 +569,40 @@ ul.pent .cwrap {
 
 #contact > h2 {
 	text-align: center;
-	width: 550px;
+	width: 22.9167em;
 	margin: 1em auto 2em;
-	padding-bottom: 10px;
-	border-bottom: 1px solid white;
+	padding-bottom: 0.416667;
+	border-bottom: 0.05em solid white;
 }
 
 #contact > ul {
-	width: 490px;
+	width: 30.5em;
 	margin: 0 auto;
 	padding: 0;
 	list-style-type: none;
 }
 
 #contact li {
-	width: 500px;
-	padding-left: 50px;
+	width: 31.25em;
+	padding-left: 3.125em;
 	display: block;
-	margin-bottom: 50px;
-	background-size: 40px;
+	margin-bottom: 3.125em;
+	background-size: 2.5em;
 }
 
 #contact h3, #contact a {
 	margin: 0;
 	color: white;
-	font-size: 10pt;
+	font-size: 0.8em;
 }
 
 #contact li:nth-child(1) {
-	background: url(img/icon_fb.svg) no-repeat 0 0px;
+	background: url(img/icon_fb.svg) no-repeat 0 0;
 }
 
 /********** Container **********/
 
 .container {
-	max-width: 800px;
+	max-width: 50em;
 	margin: 0 auto;
 }
