@@ -383,10 +383,9 @@ ul.pent .cwrap {
 }
 
 #judges img {
-	width: 6.25em;
-	height: 6.25em;
+	width: 7.25em;
+	height: 7.25em;
 	margin: 0 auto;
-	background: red;
 	display: block;
 }
 
@@ -396,7 +395,7 @@ ul.pent .cwrap {
 	position: relative;
 	width: 100%;
 	margin-right: -100%;
-	margin-top: 10.125em;
+	margin-top: 10.66667em;
 	float: left;
 	background: url("img/judge-bg.svg") no-repeat center center;
 	background-size: 6.66666em;
