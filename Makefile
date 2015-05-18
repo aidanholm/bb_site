@@ -79,11 +79,11 @@ $(FONT_TARGETS): $(BUILD_STATIC_DIR)/%: %
 	cp $< $@
 
 clean:
-	@echo -e "$(TXT_CLEANING)...$(CON_RST)"
+	@echo -e "$(TXT_CLEANING)...$(COL_RST)"
 	@rm -rf $(BUILD_STATIC_DIR)/*
 
 push: all
-	@echo -e "$(COL_CYAN)Pushing to server...$(CON_RST)"
+	@echo -e "$(COL_CYAN)Pushing to server...$(COL_RST)"
 	@mv build/img/favicon.ico build/favicon.ico
 	rsync --partial --progress --recursive ./build/* 124.250.210.14:/var/www/html/
 
