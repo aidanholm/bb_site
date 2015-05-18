@@ -83,7 +83,7 @@ clean:
 	@echo -e "$(TXT_CLEANING)..."
 	@rm -rf $(BUILD_STATIC_DIR)/*
 
-push:
+push: all
 	@echo -e "$(COL_CYAN)Pushing to server..."
 	rsync --partial --progress --recursive ./build/* 124.250.210.14:/var/www/html/
 
