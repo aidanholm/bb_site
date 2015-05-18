@@ -499,7 +499,7 @@ ul.pent .cwrap {
 
 #sponsors {
 	margin: 0;
-	margin-left: 21.875em;
+	margin-left: 19.875em;
 }
 
 #sponsors > li {
@@ -508,7 +508,7 @@ ul.pent .cwrap {
 	margin-top: 2em;
 }
 #sponsors > li:nth-child(2n-1) {
-	margin-right: 0.625em;
+	margin-right: 2.625em;
 }
 
 #sponsors img {
