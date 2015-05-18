@@ -72,7 +72,6 @@ $(IMG_TARGETS): $(BUILD_STATIC_DIR)/img/%: img/%
 		echo -e "$(TXT_COPYING) $< $(COL_GREY)=>$(COL_RST) $@"; \
 		cp $< $@; \
 	fi
-	@mv build/img/favicon.ico build/
 
 $(FONT_TARGETS): $(BUILD_STATIC_DIR)/%: %
 	@mkdir -p build/fonts
@@ -85,6 +84,7 @@ clean:
 
 push: all
 	@echo -e "$(COL_CYAN)Pushing to server...$(CON_RST)"
+	@mv build/img/favicon.ico build/favicon.ico
 	rsync --partial --progress --recursive ./build/* 124.250.210.14:/var/www/html/
 
 .PHONY:
